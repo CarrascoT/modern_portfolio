@@ -22,16 +22,16 @@
 		.btn-line {
 			//Line 1 - Rotate
 			&:nth-child(1) {
-				transform: rotate(45deg) translate(5px, 5px);
+				transform: rotate(60deg) translate(3.5px, 11px);
 			}
 			// Line 2 - Hide
 			&:nth-child(2) {
-				opacity: 0;
+				transform: translate(-1px, -10.75px);
 			}
 
 			// Line 3 - Rotate
 			&:nth-child(3) {
-				transform: rotate(-45deg) translate(7px, -6px);
+				transform: rotate(-60deg) translate(9.5px, 1.25px);
 			}
 		}
 	}
